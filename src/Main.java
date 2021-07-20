@@ -6,11 +6,11 @@ public class Main {
 
         if (plus > 1_000) {
             bonus = plus / 100;
-            System.out.println(bonus);
         } else {
             bonus = 0;
         }
 
+        System.out.println(bonus);
         System.out.println(amount + plus + bonus);
     }
 }
